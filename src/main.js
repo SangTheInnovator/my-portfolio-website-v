@@ -3,5 +3,6 @@ import '../styles/style.css';
 import '../styles/utils.css';
 
 import '../styles/components/header.css';
+import '../styles/components/home.css';
 
 

@@ -1,0 +1,116 @@
+.home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.home__subtitle {
+    color: var(--clr-slate800);
+    font-size: var(--size-base);
+    line-height: 0.9;
+}
+
+.home__title {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-4xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+
+.home__description {
+    max-width: 60ch;
+    font-size: var(--size--sm);
+    color: var(--clr--slate600);
+}
+
+.home__btn {
+    text-transform: capitalize;
+    font-size: var(--size-sm);
+    margin-top: 1rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .home {
+        gap: 1.5rem;
+        margin-top: 6.5rem;
+    }
+    
+    .home__subtitle {
+        font-size: var(--size-lg);
+    }
+    
+    .home__title {
+        font-size: var(--size-5xl);   
+    }
+    
+    .home__description {
+        max-width: 60ch;
+        font-size: var(--size--base);
+        color: var(--clr--slate600);
+    }
+    
+    .home__btn {
+        text-transform: capitalize;
+        font-size: var(--size-base);
+    }
+}
+
+
+/* lg */
+@media (min-width: 1024px) {
+    .home {
+        gap: 1.5rem;
+        margin-top: 8rem;
+    }
+    
+    .home__subtitle {
+        font-size: var(--size-2xl);
+    }
+    
+    .home__title {
+        font-size: var(--size-7xl);   
+    }
+    
+    .home__description {
+        max-width: 60ch;
+        font-size: var(--size--lg);
+        color: var(--clr--slate600);
+    }
+    
+    .home__btn {
+        text-transform: capitalize;
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .home {
+        gap: 2rem;
+        margin-top: 10rem;
+    }
+    
+    .home__subtitle {
+        font-size: var(--size-4xl);
+    }
+    
+    .home__title {
+        font-size: var(--size-9xl);   
+    }
+    
+    .home__description {
+        font-size: var(--size--xl);
+    }
+    
+    .home__btn {
+        text-transform: capitalize;
+        font-size: var(--size-xl);
+    }
+}
+
